@@ -1,6 +1,28 @@
 #include <iostream>
 using namespace std;
+/*	Referencia de punteros:
+Una referencia a un puntero es una forma de crear un 
+alias para un puntero existente.
+Se declara utilizando el operador & después del tipo de dato.
+La referencia de punteros se asocia con el puntero 
+durante su inicialización y no puede cambiar de 
+objetivo una vez inicializada.
+La sintaxis de una referencia de puntero permite el
+acceso directo al puntero subyacente sin necesidad de
+usar el operador de indirección.
+*/
 
+/*	Desreferencia de punteros:
+La desreferencia de punteros se refiere al proceso de  
+acceder al valor almacenado en la dirección de 
+memoria apuntada por un puntero.
+Se realiza utilizando el operador de indirección *.
+Permite acceder al valor real al que apunta el puntero, 
+en lugar de a la dirección de memoria.
+La desreferenciación se utiliza para leer o modificar el
+valor al que apunta un puntero.
+
+*/
 int main() {
 	//ref &
 	int x = 10;
